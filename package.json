@@ -1,6 +1,6 @@
 {
   "name": "@pxtrick/fsm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A finite-state machine",
   "main": "./lib/FSM.js",
   "homepage": "https://github.com/patrickseda/FSM",
@@ -18,7 +18,7 @@
     "state"
   ],
   "author": "Patrick Seda (https://github.com/patrickseda)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.6.1"
   },
