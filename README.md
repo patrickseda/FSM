@@ -4,6 +4,7 @@ A JavaScript module which provides simple finite-state machine behavior.
 These core elements of a traditional finite-state machine are available for configuration:
 - State names
 - State transitions (_or "events"_)
+- Initial state
 - Pre-transition behavior
 - Post-transition behavior
 - Actions always occurring upon state entry
