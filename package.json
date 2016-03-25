@@ -1,5 +1,5 @@
 {
-  "name": "@pxtrick/FSM",
+  "name": "@pxtrick/fsm",
   "version": "0.0.1",
   "description": "A finite-state machine",
   "main": "./lib/FSM.js",

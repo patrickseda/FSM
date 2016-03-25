@@ -92,7 +92,7 @@ var config = {
 };
 
 // Load the module and call the factory method to create a new instance.
-var FSM = require('FSM');
+var FSM = require('@pxtrick/fsm');
 var fsm = FSM.newFSM(config);
 
 if (fsm.isValid()) {
