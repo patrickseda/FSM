@@ -1,6 +1,6 @@
 {
   "name": "@pxtrick/fsm",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A finite-state machine",
   "main": "./lib/FSM.js",
   "homepage": "https://github.com/patrickseda/FSM",
