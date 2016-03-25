@@ -25,7 +25,7 @@ _**NOTE**: During creation of a new state machine object, the configuration is v
 
 ### Sample Module Usage _(example 1)_
 Let's model a simple light switch; Here's the state diagram:<br/>
-![login sequence state diagram](images/lightSwitch.png)
+![login sequence state diagram](lightSwitch.png)
 ```
 // +-----------------------+
 // | Model a light switch. |
@@ -52,7 +52,7 @@ if (fsm.isValid()) {
 ### Sample Module Usage _(example 2)_
 <!-- #### Sample Input Configuration: -->
 Let's model a more complex login sequence; Here's the state diagram:<br/>
-![login sequence state diagram](images/loginSequence.png)
+![login sequence state diagram](loginSequence.png)
 ```
 // +-------------------------+
 // | Model a login sequence. |
