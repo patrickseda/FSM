@@ -26,8 +26,9 @@ _**NOTE**: During creation of a new state machine object, the configuration is v
 
 ### Sample Module Usage _(example 1)_
 Let's model a simple light switch; Here's the state diagram:<br/>
-![login sequence state diagram](lightSwitch.png)
-```
+![login sequence state diagram](lightSwitch.png)<br/>
+And the corresponding code would be ...
+```javascript
 // +-----------------------+
 // | Model a light switch. |
 // +-----------------------+
@@ -49,12 +50,15 @@ if (fsm.isValid()) {
     fsm.handleEvent('turnOff');  // fsm.currentState() === 'Off';
 }
 ```
+_**NOTE**: For brevity, the idempotent transitions of_ `[Off]->(turnOff)->[Off]` _and_ `[On]->(turnOn)->[On]` _are not included in this code example._
+
 
 ### Sample Module Usage _(example 2)_
 <!-- #### Sample Input Configuration: -->
 Let's model a more complex login sequence; Here's the state diagram:<br/>
-![login sequence state diagram](loginSequence.png)
-```
+![login sequence state diagram](loginSequence.png)<br/>
+And the corresponding code would be ...
+```javascript
 // +-------------------------+
 // | Model a login sequence. |
 // +-------------------------+
@@ -105,6 +109,7 @@ if (fsm.isValid()) {
     fsm.handleEvent('logout');   // fsm.currentState() === 'LoggedOut';
 }
 ```
+_**NOTE**: For brevity, no idempotent transitions are included in this code example._
 
 ### Dependencies:
 This module is dependent on [lodash](https://www.npmjs.com/package/lodash "Go get it!").
